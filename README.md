@@ -45,12 +45,13 @@ flowchart TD
 
 ## Limitations:
 
-• This function is not available on Databricks SQL Classic.
-• This function cannot be used with views.
-• The schema supports a maximum of 128 fields.
-• Field names can contain up to 150 characters.
-• Schemas support up to 7 levels of nesting for nested fields.
-• Enum fields support a maximum of 500 values.
-• Type validation is enforced for integer, number, boolean, and enum types. If a value does not match the specified type, the function returns an error.
-• The maximum total context size is 128,000 tokens.
+- This function is not available on Databricks SQL Classic.
+- This function cannot be used with views.
+- The schema supports a maximum of 128 fields.
+- Field names can contain up to 150 characters.
+- Schemas support up to 7 levels of nesting for nested fields.
+- Enum fields support a maximum of 500 values.
+- Type validation is enforced for integer, number, boolean, and enum types. If a value does not match the specified type, the function returns an error.
+- The maximum total context size is 128,000 tokens.
 
+---
